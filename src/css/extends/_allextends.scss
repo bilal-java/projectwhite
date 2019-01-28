@@ -1,0 +1,16 @@
+%section-title{
+    text-align: center;
+    .heading{
+        //@include headings(lg);
+        //color:$main-color;
+    }
+    p{
+       // @include headings(sm);
+        font-weight:400;
+    }
+    %section-group{
+        width:80%;
+        margin: 0 auto;
+padding: 50px 0;
+    }
+}

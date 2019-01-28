@@ -1,0 +1,31 @@
+.second{
+    height:60vh;
+    width:100%;
+    position: relative;
+   .blogs{
+      left:130px;
+      display:inline-block;
+      margin:50px;
+      top:-150px;  
+       height:500px;
+        width:300px;
+        background-color:gainsboro;
+        position: relative;
+         img{
+             height:50%;
+             width:100%;
+         }
+         .title{
+             position: absolute;
+             height:150px;
+             left:20px;
+             top:200px;
+             font-size: 20px;
+             color:white;
+             transition:0.5s ease-out;
+             &:hover{top:100px;
+            transition:0.5s ease-out;}
+         }
+
+    }
+}

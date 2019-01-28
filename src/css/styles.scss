@@ -1,0 +1,27 @@
+
+@import './extends/_allextends';
+
+@import './components/Footer' ;
+
+@import './components/Navbar';
+@import './components/home';
+@import './components/data';
+@import './components/div1';
+@import './components/div2';
+@import './components/div3';
+@import './components/div4';
+@import './components/div5';
+@import './components/div6';
+@import './components/data';
+// @import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+
+body{
+  margin:0;
+  padding: 0;
+
+ // font-family: $fonts;
+}
+.section{
+height:85vh;
+padding-top: 50px;
+}

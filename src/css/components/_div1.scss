@@ -1,0 +1,20 @@
+.video{
+    height:90vh;
+    width:500%;
+    position: relative;
+    animation:travel 25s infinite;
+    top:0px;
+    img{
+        height:100%;
+        width:20%;
+    }
+    @keyframes travel{
+    0%{left:0%}
+     20%{left:-100%}
+     40%{left:-200%}
+     60%{left:-300%}
+     80%{left:-400%}
+     100%{left:-400%}
+    }
+
+}

@@ -1,0 +1,29 @@
+.third{
+    position: relative;
+    height:100vh;
+    width:100%;
+    
+    top:-22px;
+    h1{text-align: center; padding: 20px; font-size: 40px;}
+    .right{
+position: absolute;
+height:70vh;
+width:40%;
+left:10%;
+top:11%;
+background-image:url(../images/image23.jpg);
+background-repeat:no-repeat;
+background-size: cover; 
+    }
+    .left{
+        position: absolute;
+        height:50vh;
+        width:40%;
+        left:45%;
+        top:21%;
+        background-color:snow;
+        p{font-size:20px;text-align:right;}
+         
+    }
+    
+}
